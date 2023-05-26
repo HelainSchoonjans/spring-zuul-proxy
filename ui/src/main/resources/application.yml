@@ -1,0 +1,7 @@
+# We are proxying to our resource server.
+# All requests from the UI that starts with “/foos/” will be routed to our Foos Resource server at http://loclahost:8081/spring-zuul-foos-resource/foos/
+zuul:
+  routes:
+    foos:
+      path: /foos/**
+      url: http://localhost:8081/spring-zuul-foos-resource/foos

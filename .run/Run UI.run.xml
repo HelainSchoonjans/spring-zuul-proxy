@@ -13,7 +13,7 @@
           <option value="bootRun" />
         </list>
       </option>
-      <option name="vmOptions" />
+      <option name="vmOptions" value="-Dserver.port=8080" />
     </ExternalSystemSettings>
     <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
     <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>

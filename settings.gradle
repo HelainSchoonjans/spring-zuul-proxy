@@ -1,0 +1,3 @@
+rootProject.name = 'proxy-demo'
+include 'proxy'
+include 'ui'
